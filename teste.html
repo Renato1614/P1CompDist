@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Teste</title>
+</head>
+
+<body>
+    <h1>P1 Computacao distribuida </h1>
+    <h2>Desenhe Um retangulo na tela </h2>
+    <canvas onmousedown="CooredenadasIniciais(event)" onmouseup="CooredenadasFinais(event)" id="mycanvas"></canvas>
+    <br>
+    <div id="respostas">
+    </div>
+    <script src="conexao.js"></script>
+    <script src="Retangulo.js"></script>
+    <style>
+        canvas {
+            width: max-content;
+            height: max-content;
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+
+</body>
+
+</html>
